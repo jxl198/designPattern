@@ -9,7 +9,6 @@ public class App {
     public static void main(String[] args) {
         Employee chief = initEmployee();
         printEmployee(chief);
-
     }
 
     public static void printEmployee(Employee e){
@@ -18,7 +17,6 @@ public class App {
         for(int i =0;i<subordinates.size();i++){
             printEmployee(subordinates.get(i));
         }
-
     }
 
     public static Employee  initEmployee() {
